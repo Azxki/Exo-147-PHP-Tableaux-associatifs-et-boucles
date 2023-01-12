@@ -38,15 +38,23 @@ $videotheque = array(
 );
 
 echo '12.Mes films : <br>';
+echo '<br>';
 //ajoutez votre code ici
-
+foreach ($videotheque as $item) {
+    print_r($item);
+}
 
 //----------------------------------------
 //Afficher toutes les informations de la vidéothèque
 //reprenez le tableau ci-dessus, ajoutez-y 3 de vos films préférés avec les mêmes
 //informations (nom, date, realisateur, acteurs) et en plus de ces informations
 //rajoutez un synopsis
-
+echo '<br>';
+echo '<br>';
 echo '13.Mes films : <br>';
+echo '<br>';
 //ajoutez votre code ici
 
+foreach ($videotheque as $item) {
+    print_r($item);
+}
